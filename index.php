@@ -1,25 +1,8 @@
 <?php
-//sintaxis de php
-#sintaxis de php
+require __DIR__ . '/vendor/autoload.php';
+echo upper('hola');
 
-/*Bloque de 
-comentario 
-*/
-
-class Comun
-{
-    /**
-     * Comentario para variables
-     * lineas para 
-     * palabras 
-     */
-    protected $Clients=[];
-    protected $Persona=[];
-
-    
-}
-
-
+echo lower('hola');
 
 
 
